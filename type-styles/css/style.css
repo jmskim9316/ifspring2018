@@ -1,0 +1,51 @@
+body{
+	font-family: 'Barlow Condensed', sans-serif;
+	padding-left: 1em;
+}
+h2{
+	color: #808000;
+}
+h3{
+	color: rgba(0,0,0,0.5);
+	font-size: 15px;
+}
+p{
+	font-size: 25px;
+}
+#headline{
+	font-size: 50px;
+}
+
+#subheadline{
+	font-size: 30px;
+}
+#ftbold{
+	font-weight: bold;
+}
+#fsitalics{
+	font-style: italic;
+}
+#Spacing{
+	letter-spacing: .3em;
+}
+#minSpacing{
+	letter-spacing: -.03em;
+}
+#underline{
+	text-decoration: underline;
+}
+#through{
+	text-decoration: line-through;
+}
+#overline{
+	text-decoration: underline;
+}
+#uppercase{
+	text-transform: uppercase;
+}
+#lowercase{
+	text-transform: lowercase;
+}
+#capitalize{
+	text-transform: capitalize;
+}
