@@ -1,0 +1,29 @@
+body{
+	background-color: #d6cbd3;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 20px;
+	text-align: right;
+
+}
+h1{
+	font-family: "Andale mono", monospace;
+	font-size: 38px;
+}
+h2{	
+	font-family: "Andale mono", monospace;
+	font-size: 30px;
+	
+
+}
+p{
+	font-size: 15px;
+
+}
+h3{
+	color: rgba(0,0,0,0.5);
+	font-size: 13px;
+}
+#chorus{
+	font-weight: bold;
+	font-style: italic;
+}
