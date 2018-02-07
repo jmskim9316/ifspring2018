@@ -1,0 +1,58 @@
+
+header{
+	margin-bottom: 3rem;
+}
+.synopsis{
+	line-height: 1.6;
+}
+.see-all{
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 2.5rem;
+	font-weight: lighter;
+}
+
+h2{
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+img{
+	width: 100%;
+}
+.cast > ul > li{
+	width:25%;
+}
+.shows > *{
+	border-top: solid 1px rgb(0,0,0);
+}
+nav .selected{
+	font-weight: bold;
+	font-color:black;
+}
+.cast div{
+	font-size: 0.8rem;
+	
+}
+.cast ul > li > a > div:nth-of-type(1){
+	font-weight: bold;
+}
+.cast ul > li > a > div:nth-of-type(2){
+	font-style:italic;
+}
+.seasons li:nth-of-type(7):after{
+	content: "*";
+
+}
+
+#game-of-thrones > .seasons ul:after{
+	content:"* in production";
+	font-size:0.7rem;
+	color: #999;
+	display: block;
+}
+
+
