@@ -1,0 +1,43 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 20px;
+	text-align: right;
+	background-image: url(https://i.pinimg.com/736x/03/fd/ac/03fdacfe08d9e5358c84b58ef85bc7be--i-love-rain-the-rain.jpg);
+	background-position: center;
+	background-repeat: repeat;
+	color: #FFEBCD;
+
+}
+section{
+	float: left;
+	margin: 0 1.5%;
+	width : 25%;
+	min-width: 800px;
+	height: available;
+	min-height: 650px;
+	
+}
+h1{
+	font-family: "Andale mono", monospace;
+	font-size: 38px;
+	color: #2F4F4F;
+
+}
+h2{	
+	font-family: "Andale mono", monospace;
+	font-size: 30px;
+	color: #BC8F8F;
+
+}
+p{
+	font-size: 15px;
+
+}
+h3{
+	color: RGB(255, 235, 205);
+	font-size: 13px;
+}
+#chorus{
+	font-weight: bold;
+	font-style: italic;
+}
