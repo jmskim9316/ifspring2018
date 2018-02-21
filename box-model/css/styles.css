@@ -1,0 +1,189 @@
+
+body{
+	font-family: 'Archivo Narrow', sans-serif;	
+	margin: auto;
+	padding: 0;
+	background-image: url("https://wudesign.me/resources/html_tracing/images/bg.png");
+	background-position: center top;
+	min-height: 2380px;
+
+}
+
+#header{
+	color: white;
+	display: block;
+	text-align: center;
+	height: 478px;
+	background-image: url(https://i1.sndcdn.com/artworks-000189505417-wu743r-t500x500.jpg);
+	height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid ;
+}
+
+#header .p1{
+	font-size: 80px;
+	margin-top: 162px;
+	margin-bottom: 13px;
+}
+
+#header .p2{
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 184px;
+}
+
+#section2{
+	border: 1px solid white;
+	background-color: #FFEFD5;
+	margin:auto;
+
+}
+
+#section2 .whole{
+	
+	width:960px;
+	margin:130px;
+	padding-top:0px;
+	padding-bottom: 0px;
+	padding-left: 238px;
+	margin-top:0px;
+	margin-bottom: 46px;
+
+
+}
+
+#section2 .img{
+	float: right;
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+	padding: 13px;
+	margin-top: 22px;
+}
+
+#section2 .h1{
+	margin-left: 8px;
+	letter-spacing: -0.03em;
+	text-align: center;
+	font-size: 42px;
+	margin-top: 43px;
+	margin-bottom: 0px;
+	font-style: bold;
+}
+
+#section2 p{
+	margin-top: 38px;
+	font-size: 18px;
+	line-height: 23px;
+}
+
+#section3{
+	border: 1px solid white;
+	display: block;
+		background-color: #FFE4B5;
+}
+#section3 .whole{
+	padding-bottom: 600px;
+	margin:auto;
+
+
+}
+
+#section3 .h2{
+margin-top: 45px;
+text-align: center;
+font-style: bold;
+font-size: 40px;
+margin-bottom: 0px;
+
+}
+
+#section3 .wrapper{
+	display: block;
+}
+
+#section3 .col1{
+	float: left;
+	display: block;
+	margin-top: 20px;
+	margin-left: 360px;
+	margin-right: 0px;
+	width: 420px;
+	height: 500px;
+
+}
+
+#section3 .col2{
+	display: block;
+	margin-top: 20px;
+	width: 500px;
+	height: 600px;
+	float: left;
+
+}
+
+#section3 .col1 img{
+	display: block;
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-right: 14px;
+}
+
+#section3 .col2 img{
+
+	display: block;
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-right: 14px;
+	margin-left: 60px;
+}
+
+.box h4{
+	font-size: 18px;
+}
+
+.box p{
+	margin-top: 0px;
+	padding-bottom: 0px;
+	font-size: 20px;
+	line-height: 25px;
+}
+#section4{
+	border: 1px solid white;
+	height: 398px;
+	background-color: #FFDAB9;
+}
+#section4 .h1{
+	text-align: center;
+	font-size: 27px;
+	font-style: bold;
+	margin:auto;
+	padding-top: 12px;
+}
+
+#section4 .p{
+	display: block;
+	text-align: center;
+	width: 720px;
+	margin: auto;
+	padding-top: 0px;
+	font-size: 26px;
+	line-height: 35px;
+}
+
+#section5{
+
+	height: 100px;
+	background-color: #EEE8AA;
+}
+#section5 .p{
+	margin:auto;
+	padding-left: 359px;
+	padding-top: 41px;
+	font-weight: bold;
+	font-size: 17px;
+}
