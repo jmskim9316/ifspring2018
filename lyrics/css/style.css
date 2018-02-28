@@ -1,0 +1,18 @@
+body{
+	margin: 10%;
+	font-family: sans-serif;
+	background-color: #DCDCDC;
+	color: #2f2f2f;
+}
+
+.original{
+	display: block;
+	width:1080px;
+
+}
+
+.revised{
+	display: block;
+	width:1080px;
+
+}
