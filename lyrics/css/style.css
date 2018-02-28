@@ -4,15 +4,12 @@ body{
 	background-color: #DCDCDC;
 	color: #2f2f2f;
 }
-
-.original{
+.original img{
 	display: block;
-	width:1080px;
-
+	width: 600px;
 }
 
-.revised{
+.revise img{
 	display: block;
-	width:1080px;
-
+	width: 600px;
 }
