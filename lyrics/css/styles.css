@@ -1,0 +1,110 @@
+html{
+	background-color: black;
+}
+
+body{
+	margin: 0 auto; 
+}
+
+.mainpage{
+	display: block;
+	height: auto;
+	width: 1665px;
+	height: 2000px;
+	font-family: 'Dosis', sans-serif;
+	background-image: url('/Users/minseopkim/WUSTL/F40338i/ifspring2018/publish/lyrics/image/rvb.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	top: 0;
+}
+
+.title{
+	color: white;
+	font-size: 70px;
+	margin: 0 auto;
+	text-align: right;
+	padding: 3%;
+}
+
+.lyrics{
+	display: inline-block;
+	width: 900px;
+	height: 1770px;
+	border: 1px solid orange;
+	background-color: rgba(255,143,0, 0.6);
+	margin-top: 0px;
+	margin-left: 60px;
+	float: left;
+	color: white;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 35px;
+}
+
+.chrous:hover{
+	color: 	#d9b99b;
+	transition: 1s;
+	font-weight: 500;
+}
+
+.verse:hover{
+	color: 	#d9b99b;
+	transition: 1s;
+}
+
+.coverphoto{
+	display: inline-block;
+	float: right;
+	width: 500px;
+	height: 500px;
+	border: 1px solid orange;
+	margin-right: 60px;
+	background-image: url('/Users/minseopkim/WUSTL/F40338i/ifspring2018/publish/lyrics/image/honne.jpg')
+}
+
+.music{
+	display: inline-block;
+	margin-top: 514px;
+}
+
+.buttons{
+	display: inline-block;
+	margin-top: 0px;
+	padding-left: 477px;
+	font-size: 40px;
+	text-decoration: none;
+	color: rgba(255, 93, 5, 0.67);
+}
+
+#btn_insta:hover{
+	transition: 1s;
+	color: rgba(255, 126, 56, 1);
+}
+
+#btn_face:hover{
+	transition: 1s;
+	color: rgba(255, 126, 56, 1);
+}
+
+#btn_twitter:hover{
+	transition: 1s;
+	color: rgba(255, 126, 56, 1);
+}
+
+#btn_yout:hover{
+	transition: 1s;
+	color: rgba(255, 126, 56, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
