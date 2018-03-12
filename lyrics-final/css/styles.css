@@ -64,17 +64,18 @@ body{
 	float: right;
 	width: 23.84%;
 	height: 20%;
-	border: 1px solid orange;
+	background-size: cover;
+	background-repeat: no-repeat;
 	margin-right: 120px;
 	position: -webkit-sticky;
     position: sticky;
     top: 40px;
-/*	background-image: url('/Users/minseopkim/WUSTL/F40338i/ifspring2018/publish/lyrics/image/honne.jpg')
-*/}
+	background-image: url('../image/honne.jpg')
+}
 
 .music{
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: 104%;
 }
 
 .buttons{
