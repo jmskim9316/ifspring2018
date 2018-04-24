@@ -1,0 +1,300 @@
+html, body{
+	height: 100%;
+	/*background-color: black;*/
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+a{
+	color: inherit;
+}
+.sidenav {
+	margin: 0;
+	padding:0;
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #111; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+}
+
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+#main {
+    transition: margin-left .5s;
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width:840px){
+	#intro{
+		margin: 0;
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#skins{
+		width: 550px;
+		height: 250px;
+	}
+	#button{
+		display: block;
+		color: white;
+		position: absolute;
+		top: 70%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#button a{
+	padding-top: 7px;
+	display: inline-block;
+	font-size: 15px;
+	height: 25px;
+	width: 80px;
+	text-align: center;
+	background-color: #3E3E40;
+	text-transform: uppercase; 
+	text-decoration: none;
+	color: inherit;
+	}
+}
+
+@media screen and (min-width:841px){
+	#intro{
+		margin: 0;
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#skins{
+		width: 900px;
+		height: 450px;
+	}
+	#button{
+		display: block;
+		color: white;
+		position: absolute;
+		top: 70%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	#button a{
+	padding-top: 10px;
+	display: inline-block;
+	height: 30px;
+	width: 120px;
+	text-align: center;
+	background-color: #3E3E40;
+	text-transform: uppercase; 
+	text-decoration: none;
+	color: inherit;
+	}
+}
+
+#nav{
+	display: inline-block;
+}
+
+#nav:hover{
+	cursor: pointer;
+
+}
+#menu1{
+	display: inline-block;
+	left: 3%;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -2px;
+	z-index: 999;
+}
+
+#menu{
+	display: inline-block;
+	left: 0.5%;
+	top: 0.5%;
+	height: 25px;
+	width: 25px;
+}
+
+#FirstGen{
+	display: inline-block;
+	position: absolute;
+	left: 14%;
+	transform: translateX(-12%);
+	width: 17%;
+	height: 100%;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	text-align: center;
+	background-image: url(../image/first_generation.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	z-index:1;
+	transition: 1s;
+	text-decoration: none;
+
+}
+#FirstGen:hover{
+	background-image: none;
+	background-color: rgb(30,30,30);
+	z-index: 99;
+	transition: 1s;
+	color: white;
+	font-size: 25px;
+}
+
+#SecondGen{
+	display: inline-block;
+	position: absolute;
+	left: 39%;
+	transform: translateX(-37%);
+	width: 17%;
+	height: 100%;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	text-align: center;
+	background-image: url(../image/second_gen2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#SecondGen:hover{
+	background-image: none;
+	background-color: rgb(30,30,30);
+	z-index: 99;
+	transition: 1s;
+	color: white;
+	font-size: 25px;
+}
+#ThirdGen{
+	display: inline-block;
+	position: absolute;
+	left: 64%;
+	transform: translateX(-62%);
+	width: 17%;
+	height: 100%;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	text-align: center;
+	background-image: url(../image/third_gen.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+
+}
+#ThirdGen:hover{
+	background-image: none;
+	background-color: rgb(30,30,30);
+	z-index: 99;
+	transition: 1s;
+	color: white;
+	font-size: 25px;
+}
+#Redux{
+	display: inline-block;
+	position: absolute;
+	left: 89%;
+	transform: translateX(-87%);
+	width: 17%;
+	height: 100%;
+	border-left: 4px solid black;
+	border-right: 4px solid black;
+	text-align: center;
+	background-image: url(../image/redux.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#Redux:hover{
+	background-image: none;
+	background-color: rgb(30,30,30);
+	z-index: 99;
+	transition: 1s;
+	color: white;
+	font-size: 25px;
+}
+
+#introgif{
+
+	display: none;
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: 1s;
+
+}
+#menugif{
+	width: 550px;
+	height: 300px;
+}
+
+
+
+#firstp{
+	display: inline-block;
+}
+
+#firstpa{
+	display: inline-block;
+	width: 800px;
+	padding-left: 20px;
+}
+#firstpara{
+	width: 1100px;
+}
+#tony{
+	padding-left: 300px;
+}
+
+
+/*
+#firstpic{
+	height: 500px;
+	width: 200px;
+}*/
+
+
+/*#button_enter{
+	color: white;
+	padding-left: 50%;
+	display: inline-block;
+}
+#button_watch{
+	color: white;
+	padding-left: 50%;
+	display: inline-block;*/
+
+}

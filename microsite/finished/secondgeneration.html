@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SKINS UK</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" href="js/menu.js"></script>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#Header{
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 400px;
+			background-image: url(./image/cast/Second_Generation/second_head.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+		@media screen and (max-width: 840px){
+			#Header{
+				background-position: 50% 0;
+			}
+			#heading{
+				display: block;
+				color: white;
+				font-weight: bold;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				top: 40%;
+				font-size: 40px;
+				text-shadow: 2px 2px black;
+				letter-spacing: -1px;
+			}
+			#Content{
+				display: block;
+				position: absolute;
+				top: 46vh;
+				height: 100%;
+				width: 80%;
+				left: 10%;
+			}
+			#cast{
+				display: block;
+				position: relative;
+				top: 166vh;
+
+				width: 100%;
+				height: 600px;
+				background-color: black;
+				color: white;
+				text-align: center;
+			}
+		}
+		@media screen and (min-width: 841px){
+			#Header{
+
+			}
+			#heading{
+				display: block;
+				color: white;
+				font-weight: bold;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				top: 40%;
+				font-size: 60px;
+				text-shadow: 2px 2px black;
+				letter-spacing: -1px;
+			}
+			#background{
+
+				display: inline-block;
+				width: 100%;
+				top: 42%;
+				position: absolute;
+				height: 68%;
+				background-color: black;
+			}
+			#Content{
+				display: block;
+				position: absolute;
+				top: 3vh;
+				height: 58%;
+				width: 80%;
+				left: 10%;
+				background-color: black;
+				color: white;
+			}
+			#cast{
+				display: block;
+				position: relative;
+				top: 110vh;
+
+				width: 100%;
+				height: 600px;
+				text-align: center;
+			}
+		}
+		#row{
+
+			display: block;
+			position: absolute;
+			width: 80%;
+			height: 40%;
+			left: 10%;
+		}
+		#col{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 2%;
+			background-image: url(./image/cast/Second_Generation/effy.jpg);
+			background-position: 70% 20%;
+		}
+		#col1{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 22%;
+			background-image: url(./image/cast/Second_Generation/pandora.jpg);
+			background-position: 60% 0%;	
+		}
+		#col2{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 42%;
+			background-image: url(./image/cast/Second_Generation/thomas.jpeg);
+			background-position: 60% 0%;	
+		}
+		#col3{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 62%;
+			background-image: url(./image/cast/Second_Generation/james.jpg);
+			background-position: 50% 0%;
+		}
+		#col4{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 82%;
+			background-image: url(./image/cast/Second_Generation/freddie.jpg);
+			background-position: 70% 0%;
+		}
+		#namerow{
+
+			display: block;
+			position: absolute;
+			width: 100%;
+			top: 80%;
+			height: 20%;
+			left: 0%;
+		}
+		#namecol{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 2%;
+		}
+		#namecol1{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 22%;
+		}
+		#namecol2{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 42%;
+		}
+		#namecol3{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 62%;
+		}
+		#namecol4{
+			padding-top: 12px;
+			position: absolute;
+			width: 17%;
+			height: 80%;
+			left: 81%;
+		}
+		#row2{
+
+			display: block;
+			position: absolute;
+			width: 80%;
+			height: 80%;
+			left: 10%;
+		}
+		#scol{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 12%;
+			background-image: url(./image/cast/Second_Generation/jonah.jpeg);
+			background-position: 60% 0%;
+		}
+		#scol1{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 32%;
+			background-image: url(./image/cast/Second_Generation/naomi.jpg);
+			background-position: 60% 0%;	
+		}
+		#scol2{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 52%;
+			background-image: url(./image/cast/Second_Generation/katie.jpg);
+			background-position: 50% 0%;	
+		}
+		#scol3{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 72%;
+			background-image: url(./image/cast/Second_Generation/emily.jpg);
+			background-position: 60% -80%;
+		}
+
+		#namerow2{
+
+			display: block;
+			position: absolute;
+			width: 100%;
+			top: 90%;
+			height: 10%;
+			left: 0%;
+		}
+		#snamecol{
+			padding-top: 12px;
+			position: absolute;
+			width: 17%;
+			height: 80%;
+			left: 11%;
+		}
+		#snamecol1{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 32%;
+		}
+		#snamecol2{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 100%;
+			left: 52%;
+		}
+		#snamecol3{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 72%;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="main">
+
+		<div id="Header">
+			<span id="heading">Second Generation</span>
+			<div id="nav">
+				<span id="menu1" onclick="openNav()"><img id="menu" src="image/menu.png">menu</span>
+			</div>
+			<div id="sidemenu" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="mainmenu.html">Main Page</a>
+			  <a href="firstgeneration.html">First Generation</a>
+			  <a href="secondgeneration.html">Second Generation</a>
+			  <a href="thirdgeneration.html">Thrid Generation</a>
+			  <a href="redux.html">Redux</a>
+			</div>
+		</div>
+	</div>
+	<div id="background">
+		<div id="Content">
+			<p>
+				Effy Stonem (Kaya Scodelario), Tony's younger sister, becomes the principal character in the second generation. Effy is pretty, popular, but also quiet and distant, attempting to keep her own troubles hidden. Pandora Moon (Lisa Backwell) is her friend, having appeared for the first time in a second series episode. She is innocent to the sexual and narcotic world in which Effy indulges, but is ready and willing to explore it. Thomas Tomone (Merveille Lukeba) is an immigrant from DR Congo, with a morally upright outlook and good-hearted nature, and his storyline sees him becoming romantically involved with Pandora.
+				<br><br>
+				James Cook (Jack O'Connell), Freddie McClair (Luke Pasqualino) and JJ Jones (Ollie Barbieri) have been best friends since childhood. Though Cook is charismatic and sociable, he is also boisterous and not afraid of authority. His womanising drives many of the events in the series. By contrast, Freddie is an easy-going skater who likes to smoke weed, and as the more sensible and responsible friend, is often put out by Cook's behaviour. Cook and Freddie are both drawn to Effy, which drives a rift in their friendship. JJ's autism makes it difficult for him to fit in socially, but he has learnt to use magic tricks to make friends. His friends view him kindly but with a degree of amusement and sometimes irritation, but he knows Cook and Freddie will always take care of him. He is the kindest of the three, and by far the least worldly.
+				<br><br>
+
+				Katie (Megan Prescott) and Emily Fitch (Kathryn Prescott) are very different identical twin sisters. Katie thinks of herself as something of a WAG and wants to usurp Effy's place as queen bee of the group. Katie's homophobic attitudes cause problems between them, as Emily comes to terms with her homosexuality. The quieter of the two, Emily is used to being in her sister's shadow, and is sulky but perceptive. She tends to not stand out in a crowd due to her insecurities, but later grows out within the show. She is in love with Naomi Campbell (Lily Loveless), a fiery, politically charged and passionate young woman with idealistic views and an abundance of ambition. Emily also develops a good friendship with JJ, becoming close confidantes to one another.
+				<br><br>
+
+				Other characters include Klariza Clayton as Karen McClair, Freddie's older sister, who is desperate to become famous, Mackenzie Crook as Johnny White, a psychotic Bristol gangster, with comedians Jordan Long and Justin Edwards as his inept henchmen, and Ardal O'Hanlon as the gang's careless college tutor, Kieran MacFoeinaiugh (pronounced Mac-Phew). Chris Addison appears as Roundview College's new headmaster, David Blood, Will Young as a school counsellor, Pauline Quirke as the detective investigating Sophia's suicide, and Georgia Henshaw as Lara, JJ's new girlfriend.
+				<br><br>
+
+				As with the first generation, the central cast's parents are played by established British comedic actors. Harry Enfield and Morwenna Banks return as Effy's parents, Jim and Anthea Stonem, with Banks' real life partner David Baddiel appearing as Jim's colleague whom Anthea has an affair with. Sally Phillips acts as Pandora's mother, Angela Moon. Simon Day acts as Freddie's father, Leo McClair. Olivia Colman acts as Naomi's mother, Gina Campbell. Juliet Cowan and Douglas Hodge act as JJ's parents, Celia and Edward Jones. Ronni Ancona and John Bishop act as Katie and Emily's parents, Jenna and Rob Fitch. Matt King and Tanya Franks act as Cook's estranged parents, Cook Sr., and Ruth Byatt. Maureen Lipman also stars as Pandora's auntie, Elizabeth, and Dudley Sutton as Freddie's grandfather, Norman.
+			</p>
+		</div>
+	</div>
+		<div id="cast">
+			<h1>Characters</h1>
+			<div id="row">
+				<div id="col"></div>
+				<div id="col1"></div>
+				<div id="col2"></div>
+				<div id="col3"></div>
+				<div id="col4"></div>
+				<div id="namerow">
+					<div id="namecol">Elizabeth "Effy" Stonem</div>
+					<div id="namecol1">Pandora Moon</div>
+					<div id="namecol2">Thomas Tomone</div>
+					<div id="namecol3">James Cook</div>
+					<div id="namecol4">Frederick "Freddie" McClair</div>
+				</div>
+			</div>
+			<div id="row2">
+				<div id="scol"></div>
+				<div id="scol1"></div>
+				<div id="scol2"></div>
+				<div id="scol3"></div>
+				<div id="namerow2">
+					<div id="snamecol">Jonah Jeremiah "JJ" Jones</div>
+					<div id="snamecol1">Naomi Campbellr</div>
+					<div id="snamecol2">Katherine "Katie" Fitch</div>
+					<div id="snamecol3">Emily Fitch</div>
+				</div>
+			</div>
+			
+		</div>
+
+	<div id="introgif"><img id="menugif" src="image/skinsintro.gif"></div>
+	
+	<script type="text/javascript">
+	function openNav() {
+	    document.getElementById("sidemenu").style.width = "300px";
+	    document.getElementById("main").style.marginLeft = "300px";
+	    document.getElementById("nav").style.display = "none";
+	    document.getElementById("introgif").style.display = "inline-block"
+	    document.getElementById("Header").style.backgroundImage = "none";
+	    document.getElementById("heading").style.display = "none";
+	    document.getElementById("Content").style.display = "none";
+	    document.getElementById("cast").style.display = "none";
+	    document.getElementById("background").style.display = "none";
+	    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+
+	function closeNav() {
+	    document.getElementById("sidemenu").style.width = "0";
+	    document.getElementById("main").style.marginLeft = "0";
+	    document.getElementById("nav").style.display = "inline-block";
+	    document.getElementById("introgif").style.display = "none"
+	    document.getElementById("Header").style.backgroundImage = "url(./image/cast/Second_Generation/second_head.jpg)";
+	    document.getElementById("heading").style.display = "block";
+	    document.getElementById("Content").style.display = "block";
+	    document.getElementById("cast").style.display = "block";
+	    document.getElementById("background").style.display = "block";
+	    document.body.style.backgroundColor = "white";
+	}
+	</script>
+</body>
+</html>

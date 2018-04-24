@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SKINS UK</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" href="js/menu.js"></script>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#Header{
+			display: block;
+			position: absolute;
+			width: 100%;
+			height: 400px;
+			background-image: url(./image/firstheader.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		@media screen and (max-width: 840px){
+			#Header{
+				background-position: 0 -50px;
+			}
+			#heading{
+				display: block;
+				color: white;
+				font-weight: bold;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				top: 40%;
+				font-size: 40px;
+				text-shadow: 2px 2px black;
+				letter-spacing: -1px;
+			}
+			#Content{
+				display: block;
+				position: absolute;
+				top: 46vh;
+				height: 100%;
+				width: 80%;
+				left: 10%;
+			}
+			#cast{
+				display: block;
+				position: relative;
+				top: 166vh;
+				border: 1px solid black;
+				width: 100%;
+				height: 600px;
+				background-color: black;
+				color: white;
+				text-align: center;
+			}
+		}
+		@media screen and (min-width: 841px){
+			#Header{
+				background-position: 0px -130px;
+			}
+			#heading{
+				display: block;
+				color: white;
+				font-weight: bold;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+				top: 40%;
+				font-size: 60px;
+				text-shadow: 2px 2px black;
+				letter-spacing: -1px;
+			}
+			#Content{
+				display: block;
+				position: absolute;
+				top: 46vh;
+				height: 100%;
+				width: 80%;
+				left: 10%;
+			}
+			#cast{
+				display: block;
+				position: relative;
+				top: 110vh;
+				border: 1px solid black;
+				width: 100%;
+				height: 600px;
+				background-color: black;
+				color: white;
+				text-align: center;
+			}
+		}
+		#row{
+
+			display: block;
+			position: absolute;
+			width: 80%;
+			height: 40%;
+			left: 10%;
+		}
+		#col{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 2%;
+			background-image: url(./image/cast/First_Generation/tony.jpg);
+			background-position: 60% 0px;
+		}
+		#col1{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 22%;
+			background-image: url(./image/cast/First_Generation/michelle.jpg);
+			background-position: 60% 0%;	
+		}
+		#col2{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 42%;
+			background-image: url(./image/cast/First_Generation/sid.jpg);
+			background-position: 60% 0%;	
+		}
+		#col3{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 62%;
+			background-image: url(./image/cast/First_Generation/cassie.jpg);
+			background-position: 30% -80%;
+		}
+		#col4{
+
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 82%;
+			background-image: url(./image/cast/First_Generation/chris.jpg);
+			background-position: 70% 0%;
+		}
+		#namerow{
+
+			display: block;
+			position: absolute;
+			width: 100%;
+			top: 80%;
+			height: 20%;
+			left: 0%;
+		}
+		#namecol{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 2%;
+		}
+		#namecol1{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 22%;
+		}
+		#namecol2{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 42%;
+		}
+		#namecol3{
+			padding-top: 12px;
+			position: absolute;
+			width: 18%;
+			height: 80%;
+			left: 60%;
+		}
+		#namecol4{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 82%;
+		}
+		#row2{
+			display: block;
+			position: absolute;
+			width: 80%;
+			height: 80%;
+			left: 10%;
+		}
+		#scol{
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 2%;
+			background-image: url(./image/cast/First_Generation/jal.jpg);
+			background-position: 60% 100%;
+		}
+		#scol1{
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 22%;
+			background-image: url(./image/cast/First_Generation/maxxie.jpg);
+			background-position: 60% 0%;	
+		}
+		#scol2{
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 42%;
+			background-image: url(./image/cast/First_Generation/anwar.jpg);
+			background-position: 60% 0%;	
+		}
+		#scol3{
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 62%;
+			background-image: url(./image/cast/First_Generation/sketch.jpg);
+			background-position: 60% -80%;
+		}
+		#scol4{
+			display: inline-block;
+			position: absolute;
+			width: 15%;
+			height: 40%;
+			top: 50%;
+			left: 82%;
+			background-image: url(./image/cast/First_Generation/Effy.jpg);
+			background-position: 30% 0%;
+		}
+		#namerow2{
+
+			display: block;
+			position: absolute;
+			width: 100%;
+			top: 90%;
+			height: 10%;
+			left: 0%;
+		}
+		#snamecol{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 2%;
+		}
+		#snamecol1{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 22%;
+		}
+		#snamecol2{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 100%;
+			left: 42%;
+		}
+		#snamecol3{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 62%;
+		}
+		#snamecol4{
+			padding-top: 12px;
+			position: absolute;
+			width: 15%;
+			height: 80%;
+			left: 82%;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+
+		<div id="Header">
+			<span id="heading">First Generation</span>
+			<div id="nav">
+				<span id="menu1" onclick="openNav()"><img id="menu" src="image/menu.png">menu</span>
+			</div>
+			<div id="sidemenu" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="mainmenu.html">Main Page</a>
+			  <a href="firstgeneration.html">First Generation</a>
+			  <a href="secondgeneration.html">Second Generation</a>
+			  <a href="thirdgeneration.html">Thrid Generation</a>
+			  <a href="redux.html">Redux</a>
+			</div>
+		</div>
+	</div>
+	<div id="Content">
+			<p>Tony Stonem (Nicholas Hoult) is an attractive, intelligent and popular boy. His manipulative ways often go unnoticed by many, and are a catalyst for the majority of the events in the series. Sid Jenkins (Mike Bailey) is Tony's best friend and has an entirely opposite personality. He lacks confidence, is socially uneasy and struggles with school work. Tony's girlfriend is Michelle Richardson (April Pearson), a girl who can never stay angry at his mischievous behaviour for long. Outwardly, Michelle appears shallow, vain and conceited, but she works hard, has a strong interest in French and Spanish, and is very emotionally mature. She is friends with Cassie Ainsworth (Hannah Murray), an eccentric girl who suffers from an eating disorder. Cassie attempts to hide her own struggles with mental health while her flamboyant parents ignore her in favour of their new baby.
+			<br><br>
+
+			Chris Miles (Joe Dempsie) is the party animal of the group. He has a difficult home life; he lost his brother to a hereditary subarachnoid haemorrhage at a young age, and is living alone due to his ambivalent father and absent mother. He has a crush on his psychology teacher Angie (Siwan Morris). Jal Fazer (Larissa Wilson) is a sensible girl with a talent for playing the clarinet. Her runaway mother has left Jal with her famous musician father and aspiring rapper brothers. She is best friends with Michelle. Maxxie Oliver (Mitch Hewer) is openly gay and has a passion for dance. He is portrayed as attractive, seductive and talented, and is well accepted by most of his friends and family. His best friend Anwar Kharral (Dev Patel) has a slightly off-the-wall personality and is known for his silly antics and sense of humour. While he takes a pick-and-choose approach to Islam, and has no qualms about indulging in premarital sex and usage of alcohol and drugs in spite of his religion's policies against them, he has some difficulty fully accepting Maxxie's sexuality. Appearing only in the second series, Lucy, better known as "Sketch" (Aimee-Ffion Edwards), is a quiet and scheming Welsh girl who is polite yet unnerving. Living two buildings over and having a clear view of his room, she develops an obsession for Maxxie and becomes his stalker. Without her father, she is a young carer for her mother Sheila, who suffers from multiple sclerosis.
+			<br><br>
+			As well as the regular cast, there are several important recurring characters. Effy Stonem (Kaya Scodelario) is Tony's younger sister, and shares many of her brother's qualities. She is mysterious and manipulative, and selectively mute during the first series; she regularly breaks the fourth wall. Abigail Stock (Georgina Moffat) is an upper class school girl with sociopathic tendencies, and one of Tony's many sexual conquests. "Posh" Kenneth (Daniel Kaluuya) goes to the same college as the main cast and often spends time with the boys. Madison "Mad" Twatter (Stephen Walters) features as Sid's emergency drug dealer, Doug (Giles Thomas) is a senior teacher at Roundview College, and British comedian and co-writer Josie Long appears as the college's careers counsellor.
+			<br><br>
+			The central cast's parents are often played by well-known British actors credited in a guest starring role. Harry Enfield and Morwenna Banks act as Tony and Effy's parents, Jim and Anthea Stonem. Peter Capaldi and Josie Lawrence act as Sid's parents, Mark and Liz Jenkins. Arabella Weir acts as Michelle's mother, Anna Richardson, and Danny Dyer as her stepfather, Malcolm. Neil Morrissey and Naomi Allisstone act as Cassie's parents, Marcus and Margeritte Ainsworth. Mark Monero acts as Jal's father, Ronny Fazer, and (Josette Simon) as her estranged mother, Elaine. Inder Manocha and Nina Wadia act as Anwar's parents, Istiak and Bibi Kharral. Bill Bailey and Fiona Allen act as Maxxie's parents, Walter and Jackie Oliver. Mark Heap acts as Chris' estranged father, Graham Miles, and Sarah Lancashire as his stepmother, Mary Jane.</p>
+		</div>
+		<div id="cast">
+			<h1>Characters</h1>
+			<div id="row">
+				<div id="col"></div>
+				<div id="col1"></div>
+				<div id="col2"></div>
+				<div id="col3"></div>
+				<div id="col4"></div>
+				<div id="namerow">
+					<div id="namecol">Tony Stonem</div>
+					<div id="namecol1">Michelle Richardson</div>
+					<div id="namecol2">Sidney "Sid" Jenkins</div>
+					<div id="namecol3">Cassandra "Cassie" Ainsworth</div>
+					<div id="namecol4">Christopher "Chris" Miles</div>
+				</div>
+			</div>
+			<div id="row2">
+				<div id="scol"></div>
+				<div id="scol1"></div>
+				<div id="scol2"></div>
+				<div id="scol3"></div>
+				<div id="scol4"></div>
+				<div id="namerow2">
+					<div id="snamecol">Jalander "Jal" Fazer</div>
+					<div id="snamecol1">Maxxie Oliver</div>
+					<div id="snamecol2">Anwar Kharral</div>
+					<div id="snamecol3">Sketch (Lucy)</div>
+					<div id="snamecol4">Elizabeth "Effy" Stonem</div>
+				</div>
+			</div>
+			
+		</div>
+
+	<div id="introgif"><img id="menugif" src="image/skinsintro.gif"></div>
+	
+	<script type="text/javascript">
+	function openNav() {
+	    document.getElementById("sidemenu").style.width = "300px";
+	    document.getElementById("main").style.marginLeft = "300px";
+	    document.getElementById("nav").style.display = "none";
+	    document.getElementById("introgif").style.display = "inline-block"
+	    document.getElementById("Header").style.backgroundImage = "none";
+	    document.getElementById("heading").style.display = "none";
+	    document.getElementById("Content").style.display = "none";
+	    document.getElementById("cast").style.display = "none";
+	    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+	}
+
+	function closeNav() {
+	    document.getElementById("sidemenu").style.width = "0";
+	    document.getElementById("main").style.marginLeft = "0";
+	    document.getElementById("nav").style.display = "inline-block";
+	    document.getElementById("introgif").style.display = "none"
+	    document.getElementById("Header").style.backgroundImage = "url(./image/firstheader.jpg)";
+	    document.getElementById("heading").style.display = "block";
+	    document.getElementById("Content").style.display = "block";
+	    document.getElementById("cast").style.display = "block";
+	    document.body.style.backgroundColor = "white";
+	}
+	</script>
+</body>
+</html>
