@@ -11,7 +11,7 @@
 	<style type="text/css">
 		#Header{
 			display: block;
-			position: absolute;
+			position: relative;
 			width: 100%;
 			height: 400px;
 			background-image: url(./image/cast/redux/redux_heading.png);
@@ -31,27 +31,33 @@
 				left: 50%;
 				transform: translateX(-50%);
 				top: 40%;
-				font-size: 40px;
+				font-size: 60px;
 				text-shadow: 2px 2px black;
 				letter-spacing: -1px;
 			}
+			#background{
+
+				display: inline-block;
+				width: 100%;
+				position: relative;
+				background-color: black;
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
 			#Content{
 				display: block;
-				position: absolute;
-				top: 46vh;
-				height: 100%;
+				position: relative;
 				width: 80%;
 				left: 10%;
+				background-color: black;
+				color: white;
 			}
 			#cast{
 				display: block;
 				position: relative;
-				top: 166vh;
 
 				width: 100%;
 				height: 600px;
-				background-color: black;
-				color: white;
 				text-align: center;
 			}
 		}
@@ -75,26 +81,23 @@
 
 				display: inline-block;
 				width: 100%;
-				top: 42%;
-				position: absolute;
-				height: 68%;
+				position: relative;
 				background-color: black;
 			}
 			#Content{
+
 				display: block;
-				position: absolute;
-				top: 3vh;
-				height: 58%;
+				position: relative;
 				width: 80%;
 				left: 10%;
 				background-color: black;
 				color: white;
+				padding-top: 20px;
+				padding-bottom: 20px;
 			}
 			#cast{
 				display: block;
 				position: relative;
-				top: 110vh;
-
 				width: 100%;
 				height: 600px;
 				text-align: center;
@@ -188,6 +191,7 @@
 			  <a href="secondgeneration.html">Second Generation</a>
 			  <a href="thirdgeneration.html">Thrid Generation</a>
 			  <a href="redux.html">Redux</a>
+			  <a href="index.html">back to landing</a>
 			</div>
 		</div>
 	</div>

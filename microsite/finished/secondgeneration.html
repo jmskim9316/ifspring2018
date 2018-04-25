@@ -11,7 +11,7 @@
 	<style type="text/css">
 		#Header{
 			display: block;
-			position: absolute;
+			position: relative;
 			width: 100%;
 			height: 400px;
 			background-image: url(./image/cast/Second_Generation/second_head.jpg);
@@ -19,87 +19,45 @@
 			background-size: cover;
 
 		}
-		@media screen and (max-width: 840px){
-			#Header{
-				background-position: 50% 0;
-			}
-			#heading{
-				display: block;
-				color: white;
-				font-weight: bold;
-				position: absolute;
-				left: 50%;
-				transform: translateX(-50%);
-				top: 40%;
-				font-size: 40px;
-				text-shadow: 2px 2px black;
-				letter-spacing: -1px;
-			}
-			#Content{
-				display: block;
-				position: absolute;
-				top: 46vh;
-				height: 100%;
-				width: 80%;
-				left: 10%;
-			}
-			#cast{
-				display: block;
-				position: relative;
-				top: 166vh;
 
-				width: 100%;
-				height: 600px;
-				background-color: black;
-				color: white;
-				text-align: center;
-			}
+		#heading{
+			display: block;
+			color: white;
+			font-weight: bold;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			top: 40%;
+			font-size: 60px;
+			text-shadow: 2px 2px black;
+			letter-spacing: -1px;
 		}
-		@media screen and (min-width: 841px){
-			#Header{
+		#background{
 
-			}
-			#heading{
-				display: block;
-				color: white;
-				font-weight: bold;
-				position: absolute;
-				left: 50%;
-				transform: translateX(-50%);
-				top: 40%;
-				font-size: 60px;
-				text-shadow: 2px 2px black;
-				letter-spacing: -1px;
-			}
-			#background{
-
-				display: inline-block;
-				width: 100%;
-				top: 42%;
-				position: absolute;
-				height: 68%;
-				background-color: black;
-			}
-			#Content{
-				display: block;
-				position: absolute;
-				top: 3vh;
-				height: 58%;
-				width: 80%;
-				left: 10%;
-				background-color: black;
-				color: white;
-			}
-			#cast{
-				display: block;
-				position: relative;
-				top: 110vh;
-
-				width: 100%;
-				height: 600px;
-				text-align: center;
-			}
+			display: inline-block;
+			width: 100%;
+			position: relative;
+			background-color: black;
+			padding-top: 20px;
+			padding-bottom: 20px;
 		}
+		#Content{
+			display: block;
+			position: relative;
+			width: 80%;
+			left: 10%;
+			background-color: black;
+			color: white;
+		}
+		#cast{
+			display: block;
+			position: relative;
+
+			width: 100%;
+			height: 600px;
+			text-align: center;
+		}
+		
 		#row{
 
 			display: block;
@@ -203,9 +161,9 @@
 			left: 81%;
 		}
 		#row2{
-
+			top: 7%;
 			display: block;
-			position: absolute;
+			position: relative;
 			width: 80%;
 			height: 80%;
 			left: 10%;
@@ -310,6 +268,7 @@
 			  <a href="secondgeneration.html">Second Generation</a>
 			  <a href="thirdgeneration.html">Thrid Generation</a>
 			  <a href="redux.html">Redux</a>
+			  <a href="index.html">back to landing</a>
 			</div>
 		</div>
 	</div>
