@@ -116,8 +116,8 @@ a{
 
 	}
 	#skins{
-		width: 900px;
-		height: 450px;
+		width: 700px;
+		height: 350px;
 	}
 	#button{
 
@@ -125,7 +125,7 @@ a{
 		color: white;
 		position: relative;
 		display: block;
-		padding-top: 550px;
+		padding-top: 450px;
 		padding-left: 44%;
 
 	}
